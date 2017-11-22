@@ -2,7 +2,7 @@ function AddingElement(st) {
 	var prop = $('<li><span></span> <button class="delete-but">Удалить</button></li>');
 	$('span',prop).text(st);
 	$('#root ul').append(prop);
-	$('.delete-but', el).click(function(deleete) {
+	$('.delete-but', prop).click(function(deleete) {
 		$(this).parent().remove() });
 }
 $(function(){
