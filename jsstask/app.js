@@ -2,8 +2,8 @@ function AddingElement(st) {
 	var prop = $('<li><span></span> <button class="delete-but">Удалить</button></li>');
 	$('span',prop).text(st);
 	$('#root ul').append(prop);
-	$('.delete-but', prop).click(function(deleete) {
-		$(this).parent().remove() });
+	$('.delete-but', prop).click(function(del) {
+		$(this).parent().remove()});
 }
 $(function(){
 	$('#root').append('<ul></ul>');
@@ -11,5 +11,7 @@ $(function(){
 	$('#root').append('<button id ="add_task">Добавить</button>');
 	$('#add_task').click(function(){
 	AddingElement($('#add_task_input').val())});
-	AddingElement("Сделать задание #3 по web-программированию");
+AddingElement("Сделать задание #3 по web-программированию");
 })   
+
+
