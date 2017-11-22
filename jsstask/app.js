@@ -10,6 +10,6 @@ $(function(){
 	$('#root').append('<input id="add_task_input">');
 	$('#root').append('<button id ="add_task">Добавить</button>');
 	$('#add_task').click(function(){
-	addElement($('#add_task_input').val())});
+	AddingElement($('#add_task_input').val())});
 	AddingElement("Сделать задание #3 по web-программированию");
 })   
