@@ -1,4 +1,4 @@
-
+//package main
 import "unicode"
 
 func RemoveEven(array []int) []int {
@@ -8,7 +8,7 @@ func RemoveEven(array []int) []int {
 			list = append(list, element)
 		}
 	}
-	return odd
+	return list
 }
 
 func PowerGenerator(a int) func() int {
