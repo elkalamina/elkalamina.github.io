@@ -1,4 +1,4 @@
-//package main
+package main
 import "unicode"
 
 func RemoveEven(array []int) []int {
